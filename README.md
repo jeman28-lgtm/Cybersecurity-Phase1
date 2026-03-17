@@ -56,6 +56,8 @@ Breakdown of real-world scenarios
 
 As I progress, I’ll be working with tools such as:
 
+💻 VS Code (development, scripting, and configuration management)
+
 🐧 Linux
 
 🌐 Wireshark
