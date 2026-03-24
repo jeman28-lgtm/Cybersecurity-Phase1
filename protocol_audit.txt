@@ -1,0 +1,11 @@
+google.com.             227     IN      A       142.251.211.142
+
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Tue, 24 Mar 2026 00:52:50 GMT
+Content-Type: text/html
+Content-Length: 615
+Last-Modified: Tue, 24 Mar 2026 00:36:09 GMT
+Connection: keep-alive
+ETag: "69c1dc79-267"
+Accept-Ranges: bytes
