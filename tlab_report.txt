@@ -1,0 +1,12 @@
+#OPERATION BLACKOUT - REMEDIATION REPORT
+--- TASK 1: SUBNET REMEDIATION ---
+default via 192.168.10.1 dev enp0s3 
+10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 
+192.168.10.0/24 dev enp0s3 proto kernel scope link src 192.168.10.150 
+--- TASK 2: DNS REMEDIATION ---
+Malicious /etc/hosts entry for secure.titancorp.com removed.
+grep titancorp returned no result - local poisoning cleared.
+--- TASK 3: TCP 3-WAY HANDSHAKE EVIDENCE ---
+21:46:35.249323 lo    In  IP 192.168.10.150.42262 > 192.168.10.193.80: Flags [S], seq 4088936641, win 65495, options [mss 65495,sackOK,TS val 1487754694 ecr 0,nop,wscale 7], length 0
+21:46:35.249360 lo    In  IP 192.168.10.193.80 > 192.168.10.150.42262: Flags [S.], seq 1415640150, ack 4088936642, win 65483, options [mss 65495,sackOK,TS val 892801805 ecr 1487754694,nop,wscale 7], length 0
+21:46:35.249420 lo    In  IP 192.168.10.150.42262 > 192.168.10.193.80: Flags [.], ack 1, win 512, options [nop,nop,TS val 1487754694 ecr 892801805], length 0 
