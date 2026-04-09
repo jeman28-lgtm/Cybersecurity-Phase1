@@ -1,95 +1,72 @@
-🔐 Cybersecurity Learning Portfolio
+# 🔐 Cybersecurity-Phase1 — Hands-On Learning Portfolio
 
-Documenting my journey from foundational concepts to hands-on cybersecurity skills.
+> Documenting my progression from foundational concepts to applied cybersecurity skills through structured labs, scripting, and real-world simulations.
 
-📌 About This Repository
+---
 
-Welcome! This repository serves as a living portfolio of my progress in cybersecurity. As I move through my coursework and hands-on labs, I’ll be documenting key concepts, projects, and practical applications to demonstrate both knowledge and growth.
+## 📁 Repository Structure
 
-This is more than just classwork — it’s a structured record of how I’m developing real-world cybersecurity skills.
+```
+Cybersecurity-Phase1/
+├── scripts/          # Python and Bash automation tools built during labs
+├── reports/          # Network audits, threat reports, and lab write-ups
+├── labs/             # Supporting lab files and configurations
+└── README.md
+```
 
-🎯 Objectives
+---
 
-📚 Build a strong foundation in cybersecurity principles
+## 🛠️ Labs & Scripts Completed
 
-🛡️ Apply security concepts through hands-on labs and projects
+| Lab / Script | What It Does | Key Concept |
+|---|---|---|
+| `brute_detector.py` | Parses auth logs to extract Failed SSH login attempts | Log analysis, brute-force detection |
+| `incident_response.py` | Greps auth logs, extracts unique attacker IPs, exports JSON threat report | Incident response automation, subprocess |
+| `system_auditor.py` | Scans running processes for unauthorized cryptominer, generates security alert | Process auditing, threat detection |
+| `port_check.py` | Socket-based port scanner checking SSH (22) across target IPs | Network reconnaissance, TCP sockets |
+| `harden.sh` | Bash hardening script restoring Gold Standard file permissions (600/640) | Linux permissions, system hardening |
+| `docker-compose.yml` | Air-gapped containerized security stack deployment | Docker, network isolation |
+| `subnet_blueprint.txt` | CIDR subnet design for Operation Grid Lock | Subnetting, network segmentation |
+| `network_audit.txt` | Layer 1–3 connectivity audit and gateway validation | OSI model, network troubleshooting |
+| `protocol_audit.txt` | Protocol-level analysis including DNS hijacking and deception layers | DNS security, attack surface analysis |
 
-🧠 Develop a security-first mindset
+---
 
-📈 Track and showcase continuous learning and improvement
+## 🧠 Core Concepts Covered
 
-💼 Create a portfolio that reflects job-ready skills
+- **CIA Triad** — Confidentiality, Integrity, Availability
+- **AAA Framework** — Authentication, Authorization, Accounting
+- **Network Fundamentals** — OSI layers, subnetting, CIDR, default gateway
+- **Linux Security** — File permissions (chmod/chown), /etc/shadow hardening
+- **Threat Detection** — Brute-force pattern recognition, log parsing, IP extraction
+- **Incident Response** — Automated hunt scripts, structured JSON alert generation
+- **Containerization** — Docker Compose for isolated security environments
 
-🧩 What You'll Find Here
+---
 
-This repository will evolve over time, but key sections include:
+## 🚀 Tools & Technologies
 
-🔍 Core Concepts
+| Tool | Used For |
+|---|---|
+| Python 3 | Automation scripts, log parsing, threat reporting |
+| Bash | System hardening, permission management |
+| Docker / Docker Compose | Air-gapped lab environment deployment |
+| Linux CLI | System auditing, file management, process inspection |
+| Nmap / Socket | Port scanning and network reconnaissance |
+| JSON | Structured threat alert output |
 
-CIA Triad (Confidentiality, Integrity, Availability)
+---
 
-AAA Framework (Authentication, Authorization, Accounting)
+## 📈 Progress Tracker
 
-Risk Management & Governance
+- [x] Week 1 — Foundational concepts, CIA Triad, AAA Framework
+- [x] Week 2 — Network fundamentals, subnetting, CIDR
+- [x] Week 3 — Python automation: port checker, brute-force detector, system auditor
+- [x] Week 4 — Incident response scripting, Docker stack deployment, sandbox analysis
+- [ ] Week 5+ — Wireshark analysis, Nmap scanning, vulnerability assessment
 
-Network Security Fundamentals
+---
 
-🛠️ Projects & Labs
+## 🤝 Connect
 
-Secure configurations
-
-Network analysis exercises
-
-Vulnerability assessments
-
-Threat modeling exercises
-
-📄 Notes & Write-Ups
-
-Summaries of key topics
-
-Reflections on learning
-
-Breakdown of real-world scenarios
-
-🚀 Tools & Technologies
-
-As I progress, I’ll be working with tools such as:
-
-💻 VS Code (development, scripting, and configuration management)
-
-🐧 Linux
-
-🌐 Wireshark
-
-🔐 Nmap
-
-🧪 Virtual Machines
-
-☁️ Cloud Security Environments
-
-📊 Growth Mindset
-
-Cybersecurity is constantly evolving, and so am I. This repository reflects:
-
-My learning process
-
-Challenges I’ve worked through
-
-Skills I’ve strengthened over time
-
-🧠 Why This Matters
-
-Security is not just about tools — it’s about thinking critically, understanding risk, and protecting systems proactively. This portfolio demonstrates my ability to learn, adapt, and apply cybersecurity principles in meaningful ways.
-
-📅 Ongoing Updates
-
-🆕 This repository will be continuously updated as I progress through my coursework and beyond.
-
-🤝 Connect With Me
-
-I’m always open to collaboration, feedback, and learning opportunities. Feel free to connect or follow my journey!
-
-⭐ Final Note
-
-If you’re viewing this repo, you’re witnessing my growth in real time — from foundational knowledge to practical cybersecurity expertise.
+Open to feedback, collaboration, and learning opportunities. This repository is a living record of my growth — updated weekly as I progress through the program.

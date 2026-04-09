@@ -1,0 +1,17 @@
+# Output and report files
+*.log
+brute_report.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor files
+.vscode/
+*.swp
