@@ -1,0 +1,23 @@
+==================================================
+SESSION 20: NETWORK ENUMERATION MAP
+Target Subnet: 172.99.0.0/24
+==================================================
+
+HOST 1 (172.99.0.5)
+* Open Ports: [80/tcp]
+* Service/Version: [http/nginx 1.28.8]
+
+HOST 2 (172.99.0.6)
+* Open Ports: [6379/tcp]
+* Service/Version: [redis/redis Key value store 8.6.2]
+
+HOST 3 (172.99.0.7)
+* Open Ports: [80/tcp]
+* Service/Version: [http/Apache httpd 2.4.66 ((unix))]
+
+QUESTIONS:
+1. What Nmap flag did you use to find the specific software versions running on these ports?
+Answer: The Nmap flag we used is -sV 
+
+2. Why is it dangerous to run an intense scan (like -A) on a fragile legacy system?
+Answer: The system may become so overwhelmed trying to respond to the scan that it stops responding to legitimate users or crashes entirely. This is effectively a self-inflicted DoS (Denial of Service) attack.
