@@ -1,0 +1,18 @@
+==================================================
+SESSION 25: SQL INJECTION EXFILTRATION REPORT
+==================================================
+
+1. AUTHENTICATION BYPASS
+* Tautology Payload Used: [' OR 1=1 --]
+
+2. DATABASE MAPPING (UNION ATTACK)
+* Number of Columns Discovered: [2]
+* Table Name Discovered: [TitanCorp Employee Directory]
+
+3. DATA EXFILTRATION
+* CEO Salary Extracted: [450000]
+* Final UNION Payload Used: [' UNION SELECT name, salary FROM employees --]
+
+4. REMEDIATION
+* What is the primary defense against this attack?
+Answer: [Parameterized Queries (Prepared Statements). Instead of building SQL strings by directly gluing user input onto the query text (which allows the input to break out and execute as code), parameterized queries separate the query structure from the data. The database treats the user's input strictly as a safe literal value (a string), ensuring it can never alter the execution logic of the database engine, even if it contains malicious characters like quotes or SQL commands.]
