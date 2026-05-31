@@ -1,6 +1,10 @@
-# 🔐 Cybersecurity-Phase1 — Hands-On Learning Portfolio
+# TKH Innovation Fellowship 2026 — Phase 1 Cybersecurity Portfolio
 
-> Documenting my progression from foundational concepts to applied cybersecurity skills through structured labs, scripting, and real-world simulations.
+**Fellow:** Jay Emanuel  
+**Cohort:** IF 2026 — Cybersecurity  
+**Phase:** Phase 1 | March – May 2026
+
+> This repository contains all lab artifacts produced during Phase 1 of the TKH Innovation Fellowship 2026 Cybersecurity program. Each week folder contains the session artifacts and a notes document reflecting on the concepts covered.
 
 ---
 
@@ -8,17 +12,18 @@
 
 ```
 Cybersecurity-Phase1/
-├── week-01/          # Linux Terminal Control
-├── week-02/          # Network Operations
-├── week-03/          # Introduction to Python for Security Professionals
-├── week-04/          # Virtualization | Virtual Machines | Containers
-├── week-05/          # Identity, Access Management (IAM) & Windows Enterprise Infrastructure
-├── week-06/          # The Forge: Sprint Finale
-├── week-07/          # The Perimeter: Reconnaissance, Scanning & Vulnerability Analysis
-├── week-08/          # The Breach: Exploitation, Privilege Escalation & Post-Exploitation
-├── week-09/          # The Application Layer: Web Application Security
-├── week-10/          # The Defender: Digital Forensics and Incident Response (DFIR)
-├── week-11/          # The Fortress: Network Defense & Perimeter Hardening
+├── week-01/          # Linux Fundamentals & Filesystem Navigation
+├── week-02/          # Networking & Protocol Analysis
+├── week-03/          # Python Scripting for Security
+├── week-04/          # Virtualization & Containers
+├── week-05/          # Identity, Access & Active Directory
+├── week-06/          # Phase 1 Midterm
+├── week-07/          # Reconnaissance & Vulnerability Analysis
+├── week-08/          # Exploitation Frameworks
+├── week-09/          # Web Application Security
+├── week-10/          # Digital Forensics & Incident Response
+├── week-11/          # Active Defense: Firewalls, IDS & EDR
+├── week-12/          # Phase 1 Final Reckoning
 └── README.md
 ```
 
@@ -209,9 +214,26 @@ Cybersecurity-Phase1/
 
 | File | Description |
 |------|-------------|
+| `s30_provision.sh` | S30 — provisioning script for the ELK Stack / Kibana SIEM environment |
 | `forensic_findings.md` | Digital forensics findings and evidence documentation |
 | `Incident_Response_Report.md` | Full IR report with PICERL lifecycle, timeline, and remediation steps |
 | `attack_timeline.csv` | Chronological attack event timeline reconstructed from SIEM log correlation |
+
+---
+
+### Week 12 — The Final Reckoning
+`5/26 – 5/28` &nbsp;|&nbsp; **Threat Assessment · Purple Team Operations · Incident Response · Forensic Documentation · Professional Portfolio Development**
+
+| Session | Theme | Artifact |
+|---------|-------|----------|
+| S34 | Memorial Day — No class | *(observed holiday)* |
+| S35 | Portfolio Review — repo audit, notes.md for each week, final push | `portfolio_audit.md` |
+| S36 | Phase 1 Final Reckoning (TEPP) — full spectrum solo operation: triage, breach, forensics, web exploitation, hardened perimeter | *(TEPP artifact)* |
+
+| File | Description |
+|------|-------------|
+| `portfolio_audit.md` | S35 — structured audit confirming all weekly artifacts are present, correctly placed, and documented |
+| `notes.md` | Reflection document required in every week folder — APA style, covering concepts, artifacts, challenges, and growth |
 
 ---
 
@@ -220,12 +242,17 @@ Cybersecurity-Phase1/
 
 | Session | Theme | Artifact |
 |---------|-------|----------|
-| S31 | The Barricade — UFW, iptables, DMZ architecture, egress filtering | *(firewall rules)* |
-| S32 | The Tripwire — Suricata IDS deployment, custom signature engineering | *(Suricata configs)* |
-| S33 | The Last Mile — SysmonForLinux, process tracking, ransomware EDR detection | *(Sysmon XML policy)* |
-| TLAB 11 | Operation Fortress — egress filtering + IDS signatures + EDR policy, Defense in Depth | *(TBD)* |
+| S31 | The Barricade — UFW, iptables, DMZ architecture, egress filtering | `firewall_config.sh` |
+| S32 | The Tripwire — Suricata IDS deployment, custom signature engineering | `custom_ids.rules` |
+| S33 | The Last Mile — SysmonForLinux, process tracking, ransomware EDR detection | `edr_policy.xml` |
+| TLAB 11 | Operation Fortress — egress filtering + IDS signatures + EDR policy, Defense in Depth | `Operation_Fortress_Report.md` |
 
-> 🚧 Week 11 artifacts will be committed upon completion.
+| File | Description |
+|------|-------------|
+| `firewall_config.sh` | S31 — iptables/UFW firewall config with DMZ architecture and egress filtering rules |
+| `custom_ids.rules` | S32 — custom Suricata IDS signatures engineered to detect specific malicious payloads |
+| `edr_policy.xml` | S33 — SysmonForLinux XML EDR policy catching ransomware precursor behavior |
+| `Operation_Fortress_Report.md` | TLAB 11 — Defense in Depth report: egress filtering + IDS signatures + EDR policy |
 
 ---
 
@@ -275,10 +302,11 @@ Cybersecurity-Phase1/
 - [x] Week 08 `4/27–4/29` — The Breach: Exploitation, Privilege Escalation & Post-Exploitation
 - [x] Week 09 `5/4–5/6` &nbsp;&nbsp;— The Application Layer: Web Application Security
 - [x] Week 10 `5/11–5/15` — The Defender: Digital Forensics and Incident Response (DFIR)
-- [ ] Week 11 `5/18–5/20` — The Fortress: Network Defense & Perimeter Hardening
+- [x] Week 11 `5/18–5/20` — The Fortress: Network Defense & Perimeter Hardening
+- [ ] Week 12 `5/26–5/28` — The Final Reckoning: Portfolio Review & Phase 1 Final Reckoning (TEPP)
 
 ---
 
 ## 🤝 Connect
 
-Open to feedback, collaboration, and learning opportunities. This repository is a living record of my growth — updated weekly as I progress through the program. 
+Open to feedback, collaboration, and learning opportunities. This repository is a living record of my growth — updated weekly as I progress through the program.
